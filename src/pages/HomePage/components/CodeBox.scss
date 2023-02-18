@@ -1,0 +1,11 @@
+.CodeBox {
+  > pre {
+    font-size: 12px;
+    background-color: #ffe;
+  }
+  .code-wrapper{
+    box-sizing: border-box;
+    overflow: auto;
+    max-height: 600px;
+  }
+}

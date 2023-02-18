@@ -1,0 +1,47 @@
+.HomePage {
+  .title{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 22px;
+    color:#fff;
+  }
+  .wrapper {
+    display: flex;
+    // justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    > div{
+      flex:1;
+      // background-color: pink;
+    }
+    h3{
+      color: #fff;
+    }
+    .input{
+      margin-right: 8px;
+      // background-color: lightgreen;
+    }
+    .output{
+      margin-left: 8px;
+      
+    }
+  }
+  .button-part{
+    overflow: hidden;
+    
+  }
+  .btn{
+      display: inline-block;
+      overflow: hidden;
+      display: inline;
+      color:lightblue;
+      padding:16px;
+      // padding-left: 0;
+      cursor: pointer;
+      // margin: 8px;
+      &:hover{
+        background-color: #fff;
+        color:#000;
+      }
+    }
+}
