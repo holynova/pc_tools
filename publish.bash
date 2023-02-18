@@ -1,6 +1,6 @@
 
 start=$(date +%s)
-
+cnpm install
 rm -rf docs/  
 mkdir docs 
 npm run build  
